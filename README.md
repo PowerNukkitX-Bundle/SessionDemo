@@ -11,3 +11,5 @@ I already noticed this problem when people use `Pocketmine-MP` to create a **Cus
 
 ### I can use this code ?
 yes it has to be done, I still see too many people using Player Custom classes just to add data
+
+**Go Star** my plugin ❤
