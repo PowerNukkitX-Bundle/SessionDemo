@@ -2,14 +2,14 @@ package cn.powernukkitx.session;
 
 import cn.nukkit.Player;
 
-import java.util.HashMap;
+import java.util.WeakHashMap;
 import java.util.Map;
 import java.util.Random;
 
 public class Session {
 
     // Using a HashMap to Store Player Sessions
-    private static final Map<Player, Session> data = new HashMap<>();
+    private static final Map<Player, Session> data = new WeakHashMap<>();
 
     public static Session get(Player player) {
         return data.computeIfAbsent(player, Session::loadSessionData);
