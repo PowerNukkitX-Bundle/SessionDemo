@@ -1,0 +1,7 @@
+name: SessionDemo
+main: cn.powernukkitx.session.Main
+version: "1.0.0"
+api: ["1.0.14"]
+load: POSTWORLD
+author: AzaleeX
+website: https://github.com/PowerNukkitX/SessionDemo
